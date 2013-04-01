@@ -525,6 +525,16 @@
 			<artifactId>usergrid-java-client</artifactId>
 			<version>0.0.3</version>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>spring-android-rest-template</artifactId>
+					<groupId>org.springframework.android</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>spring-android-core</artifactId>
+					<groupId>org.springframework.android</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
